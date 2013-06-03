@@ -1,0 +1,47 @@
+{
+  "name": "WhatsGoingOn",
+  "indexHtmlPath": "index.html",
+  "url": null,
+  "js": [
+    {
+      "path": "../touch/sencha-touch.js"
+    },
+    {
+      "path": "app.js",
+      "bundle": true,
+      "update": "delta"
+    }
+  ],
+  "css": [
+    {
+      "path": "resources/css/app.css",
+      "update": "delta"
+    }
+  ],
+  "appCache": {
+    "cache": [
+      "index.html"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    "resources/images",
+    "resources/icons",
+    "resources/startup"
+  ],
+  "ignore": [
+    ".svn$"
+  ],
+  "archivePath": "archive",
+  "requires": [],
+  "buildOptions": {
+    "product": "touch",
+    "minVersion": 3,
+    "debug": false,
+    "logger": false
+  },
+  "id": "be6dc988-cad0-4d30-9dd5-ddca68cc4fc8"
+}
