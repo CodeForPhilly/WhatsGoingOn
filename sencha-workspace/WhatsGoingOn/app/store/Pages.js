@@ -10,7 +10,10 @@ Ext.define('WhatsGoingOn.store.Pages', {
 		model: 'WhatsGoingOn.model.Page'
 		,proxy: {
 			type: 'localwiki'
-			,url: '/api/page'
+			,url: '/tag-search'
+			,extraParams: {
+				'include': 'content' // 'content,map'
+			}
 		}
 	}
 });

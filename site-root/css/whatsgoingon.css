@@ -1,0 +1,23 @@
+.anchor-target {
+	padding-top: 40px; /* make space for the fixed navbar */
+}
+
+#map {
+	width:100%;
+	height:230px;
+}
+
+#map img {
+	max-width: none;
+}
+
+#map .infowindow-link {
+	padding-right: 30px;
+}
+
+.spinner {
+	position: relative;
+    top: 180px;
+    left: 50%;
+	display: none;
+}

@@ -97,7 +97,7 @@ Ext.define('WhatsGoingOn.controller.Main', {
 		
 		params = Ext.Array.clean(me.decodeRouteComponent(params).split(/\s/));
 
-		proxy.setExtraParam('page_tags__tags__slug', params.length ? params : 'afterschoolprogram');
+		proxy.setExtraParam('tag[]', params.length ? params : 'afterschoolprogram');
 
 		if(mainView.getActiveItem() == resultsView) {
 			if(proxy.isExtraParamsDirty()) {

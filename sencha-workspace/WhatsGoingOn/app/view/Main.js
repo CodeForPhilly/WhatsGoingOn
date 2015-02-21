@@ -33,7 +33,8 @@ Ext.define('WhatsGoingOn.view.Main', {
 				,options: [
 					{ text: 'Any', value: null }
 					,{ text: 'Summer', value: 'afterschoolprogramsummer' }
-					,{ text: 'School year', value: 'afterschoolprogramschoolyear' }
+					,{ text: 'School-year', value: 'afterschoolprogramschoolyear' }
+					,{ text: 'Year-round', value: 'afterschoolprogramyearround' }
 				]
 			},{
 				xtype: 'selectfield'
